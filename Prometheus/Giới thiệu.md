@@ -3,6 +3,12 @@
 - Prometheus là một dịch vụ theo dõi và cảnh báo về hệ thống. Đây là một dịch vụ mã nguồn mở (Open source) hoàn toàn miễn phí. .
 - SoundCloud đã khởi đầu xây dựng Prometheus từ năm 2012. Giờ đây Prometheus đã được tách khỏi SoundCloud và là một dự án mã nguồn mở độc lập.
 - Tính năng quan trọng nhất của Prometheus là thu thập thông số, dữ liệu từ các mục tiêu (dịch vụ) được nhắm đến theo khoảng thời gian nhất định đã được cài đặt trước. Ngoài ra còn các API khác thể hiện được kết quả, đánh giá bằng biểu thức quy tắc và đưa ra cảnh báo. Prometheus còn cung cấp một ngôn ngữ truy vấn rất mạnh PromQL, cực kì hữu ích khi giao tiếp với các dịch vụ monitor khác.
+- Prometheus độc đáo ở chỗ nó có thể thu thập dữ liệu đa chiều từ nhiều nguồn, khiến nó trở thành một lựa chọn hấp dẫn cho các doanh nghiệp sử dụng dịch vụ cloud microservices. Nó chứa một hệ thống cảnh báo chỉ số, nhưng các nhà phát triển thường bổ sung nó bằng các phương pháp ghi nhật ký thay thế
+- Prometheus đã phát triển một ngôn ngữ truy vấn mới (PromQL).
+
+
+
+
 # 2. Tính năng 
   - Mô hình dữ liệu Time series đặc biệt phù hợp để theo dõi số liệu theo thời gian.
   - Có ngôn ngữ truy vấn riêng PromQL rất mạnh mẽ.
